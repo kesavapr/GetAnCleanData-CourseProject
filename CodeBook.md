@@ -23,8 +23,8 @@ Each row repesents a unique Subject - Activity combination.
         +acc    - Accelerometer  
         +gyro   - Gyroscope  
 
-    * timebodyaccmeanx  
-    * timebodyaccmeany  
+    * timebodyaccmeanx
+    * timebodyaccmeany
     * timebodyaccmeanz
     * timegravityaccmeanx
     * timegravityaccmeany
