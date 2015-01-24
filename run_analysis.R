@@ -49,10 +49,10 @@ FullTidyDataMeanStdAvg <- group_by(FullDataMeanStd, SubjectId, Activity) %>%
     arrange(SubjectId)
 
 
-write.table(FullTidyDataMeanStdAvg, "TidySmartphoneDataSet", 
+write.table(FullTidyDataMeanStdAvg, "TidySmartphoneDataSet.txt", 
             row.names = FALSE)
 
-View(read.table("TidySmartphoneDataSet", header = TRUE))
+View(read.table("TidySmartphoneDataSet.txt", header = TRUE))
 
 
 
